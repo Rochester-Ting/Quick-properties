@@ -1,25 +1,25 @@
 //
 //  UIView+Frame.h
-//  01-BuDeJie
+//  UIView+Frame
 //
 //  Created by xmg on 16/1/18.
-//  Copyright © 2016年 xiaomage. All rights reserved.
+//  Copyright © 2016年 ruirui. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface UIView (Frame)
 
-@property CGFloat xmg_x;
-@property CGFloat xmg_y;
-@property CGFloat xmg_width;
-@property CGFloat xmg_height;
-@property CGFloat xmg_centerX;
-@property CGFloat xmg_centerY;
+@property CGFloat rr_x;
+@property CGFloat rr_y;
+@property CGFloat rr_width;
+@property CGFloat rr_height;
+@property CGFloat rr_centerX;
+@property CGFloat rr_centerY;
 
 /**
  *  判断self和view是否重叠
  */
-- (BOOL)xmg_intersectWithView:(UIView *)view;
+- (BOOL)rr_intersectWithView:(UIView *)view;
 
 @end
