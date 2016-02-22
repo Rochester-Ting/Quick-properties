@@ -2,7 +2,7 @@
 //  UIView+Frame.h
 //  UIView+Frame
 //
-//  Created by xmg on 16/1/18.
+//  Created by rui on 16/1/18.
 //  Copyright © 2016年 ruirui. All rights reserved.
 //
 
