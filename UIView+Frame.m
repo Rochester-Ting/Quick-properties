@@ -2,8 +2,8 @@
 //  UIView+Frame.m
 //  UIView+Frame
 //
-//  Created by rui on 16/1/18.
-//  Copyright © 2016年 ruirui. All rights reserved.
+//  Created by rui on 15/1/18.
+//  Copyright © 2015年 ruirui. All rights reserved.
 //
 
 #import "UIView+Frame.h"
