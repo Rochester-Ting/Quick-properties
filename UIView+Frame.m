@@ -1,16 +1,16 @@
 //
 //  UIView+Frame.m
-//  01-BuDeJie
+//  UIView+Frame
 //
-//  Created by xmg on 16/1/18.
-//  Copyright © 2016年 xiaomage. All rights reserved.
+//  Created by rui on 16/1/18.
+//  Copyright © 2016年 ruirui. All rights reserved.
 //
 
 #import "UIView+Frame.h"
 
 @implementation UIView (Frame)
 
-- (BOOL)xmg_intersectWithView:(UIView *)view
+- (BOOL)rr_intersectWithView:(UIView *)view
 {
     if (view == nil) view = [UIApplication sharedApplication].keyWindow;
     
@@ -19,68 +19,68 @@
     return CGRectIntersectsRect(rect1, rect2);
 }
 
-- (CGFloat)xmg_height
+- (CGFloat)rr_height
 {
     return self.frame.size.height;
 }
-- (void)setXmg_height:(CGFloat)xmg_height
+- (void)setRr_height:(CGFloat)Rr_height
 {
     CGRect frame = self.frame;
     frame.size.height = xmg_height;
     self.frame = frame;
 }
-- (CGFloat)xmg_width
+- (CGFloat)rr_width
 {
      return self.frame.size.width;
 }
 
-- (void)setXmg_width:(CGFloat)xmg_width
+- (void)setRr_width:(CGFloat)rr_width
 {
     CGRect frame = self.frame;
     frame.size.width = xmg_width;
     self.frame = frame;
 }
 
-- (void)setXmg_x:(CGFloat)xmg_x
+- (void)setRr_x:(CGFloat)xmg_x
 {
     CGRect frame = self.frame;
     frame.origin.x = xmg_x;
     self.frame = frame;
 
 }
-- (CGFloat)xmg_x
+- (CGFloat)rr_x
 {
     return self.frame.origin.x;
 }
 
-- (void)setXmg_y:(CGFloat)xmg_y
+- (void)setRr_y:(CGFloat)rr_y
 {
     CGRect frame = self.frame;
     frame.origin.y = xmg_y;
     self.frame = frame;
 }
-- (CGFloat)xmg_y
+- (CGFloat)rr_y
 {
     return self.frame.origin.y;
 }
 
-- (void)setXmg_centerX:(CGFloat)xmg_centerX
+- (void)setRr_centerX:(CGFloat)rr_centerX
 {
     CGPoint center = self.center;
     center.x = xmg_centerX;
     self.center = center;
 }
-- (CGFloat)xmg_centerX
+- (CGFloat)rr_centerX
 {
     return self.center.x;
 }
-- (void)setXmg_centerY:(CGFloat)xmg_centerY
+- (void)setRr_centerY:(CGFloat)rr_centerY
 {
     CGPoint center = self.center;
     center.y = xmg_centerY;
     self.center = center;
 }
-- (CGFloat)xmg_centerY
+- (CGFloat)rr_centerY
 {
     return self.center.y;
 }
