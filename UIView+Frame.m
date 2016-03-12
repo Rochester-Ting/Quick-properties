@@ -23,10 +23,10 @@
 {
     return self.frame.size.height;
 }
-- (void)setRr_height:(CGFloat)Rr_height
+- (void)setRr_height:(CGFloat)rr_height
 {
     CGRect frame = self.frame;
-    frame.size.height = xmg_height;
+    frame.size.height = rr_height;
     self.frame = frame;
 }
 - (CGFloat)rr_width
@@ -37,14 +37,14 @@
 - (void)setRr_width:(CGFloat)rr_width
 {
     CGRect frame = self.frame;
-    frame.size.width = xmg_width;
+    frame.size.width = rr_width;
     self.frame = frame;
 }
 
-- (void)setRr_x:(CGFloat)xmg_x
+- (void)setRr_x:(CGFloat)rr_x
 {
     CGRect frame = self.frame;
-    frame.origin.x = xmg_x;
+    frame.origin.x = rr_x;
     self.frame = frame;
 
 }
@@ -56,7 +56,7 @@
 - (void)setRr_y:(CGFloat)rr_y
 {
     CGRect frame = self.frame;
-    frame.origin.y = xmg_y;
+    frame.origin.y = rr_y;
     self.frame = frame;
 }
 - (CGFloat)rr_y
@@ -67,7 +67,7 @@
 - (void)setRr_centerX:(CGFloat)rr_centerX
 {
     CGPoint center = self.center;
-    center.x = xmg_centerX;
+    center.x = rr_centerX;
     self.center = center;
 }
 - (CGFloat)rr_centerX
@@ -77,7 +77,7 @@
 - (void)setRr_centerY:(CGFloat)rr_centerY
 {
     CGPoint center = self.center;
-    center.y = xmg_centerY;
+    center.y = rr_centerY;
     self.center = center;
 }
 - (CGFloat)rr_centerY
